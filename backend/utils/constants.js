@@ -1,0 +1,23 @@
+module.exports = {
+  ROLES: { SEEKER: 'jobseeker', RECRUITER: 'recruiter', ADMIN: 'admin' },
+  JOB_TYPES: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Remote'],
+  EXPERIENCE_LEVELS: ['Fresher', 'Junior', 'Mid-level', 'Senior', 'Lead'],
+  CATEGORIES: [
+    'Software Development',
+    'Data Science & AI',
+    'Design',
+    'Marketing',
+    'Sales',
+    'Finance',
+    'Human Resources',
+    'Operations',
+    'Customer Support',
+    'Healthcare',
+    'Education',
+    'Other',
+  ],
+  CURRENCIES: ['INR', 'USD', 'EUR', 'GBP'],
+  JOB_STATUS: ['open', 'closed'],
+  APPLICATION_STATUS: ['Applied', 'Under Review', 'Shortlisted', 'Rejected', 'Hired'],
+  NOTIFICATION_TYPES: ['application_received', 'status_changed', 'job_removed', 'account', 'system'],
+};
